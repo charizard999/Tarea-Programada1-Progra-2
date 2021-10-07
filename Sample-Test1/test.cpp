@@ -1,6 +1,4 @@
 #include "pch.h"
-#include "gtest/gtest.h"
-
 #include "../Proyecto1/Servicio_Postal.h"
 #include "../Proyecto1/FedEX.h"
 
@@ -26,5 +24,9 @@ TEST(FedEXTest, FedEX_Calculo_Envio) {
 
 	EXPECT_EQ(23, actual);
 	EXPECT_TRUE(true);
-	
+
+}
+TEST(TestCaseName, TestName) {
+  EXPECT_EQ(1, 1);
+  EXPECT_TRUE(true);
 }

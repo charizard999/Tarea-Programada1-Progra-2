@@ -1,10 +1,10 @@
 
 #include <iostream>
 #include <stdio.h>
-#include "Envio.h"
-#include "Servicio_Postal.h"
-#include "FedEx.h"
+#include "../Proyecto1/Envio.h"
 #include <vector>
+#include "../Proyecto1/Servicio_Postal.h"
+#include "../Proyecto1/FedEX.h"
 
 using namespace std;
 
@@ -74,7 +74,7 @@ int main() {
 				
 		}
 	} while (opcion != 4);
-	
+
 	
 	system("pause");
 	return 0;
